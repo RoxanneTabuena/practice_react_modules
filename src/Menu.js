@@ -26,7 +26,7 @@ function Menu({onSelectVideo}) {
   
       return (
         <form onClick = {clickHandler} >
-            {interaction? clicked : unclicked };
+            {interaction ? clicked : unclicked }
         </form>
       );
   };
